@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Josefin+Sans:ital,wght@0,400;1,300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  font-family: 'roboto', sans-serif;
+}
+
+.header{
+  display: flex;
+}
+
+.title-header{
+  color: #725C5C;
+  margin-top: 10px;
+}
+
+.title-header .text-1{
+  font-size: 14px;
+}
+
+.title-header .text-2{
+  font-size: 22px;
+}
+
+.title-header .text-3{
+  font-size: 14px;
+}
+
+.language {
+  margin-top: 17px;
+  margin-left: 150px;
+}
+
+.btn-header{
+  width: 100px;
+  height: 34px;
+  text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.btn-header .icon-2{
+  margin-left: 5px;
+}
+
+.user-email{
+ margin-left: 160px;
+ margin-top: 17px;
+ display: flex;
+}
+
+.photo{
+  width: 35px;
+  height: 30px;
+ border-radius: 55%;
+ padding-left: 5px;
+}
+
+.user-email .welcome{
+  text-align: right;
+}
+
+.overlay-number {
+  position: absolute;
+  top: 8px;
+  right: 25px;
+  background-color: red;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+}

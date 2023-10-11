@@ -143,6 +143,7 @@
         <h3>Discussões</h3>
       </div>
     </div>
+    <div class="discussions">
     <div class="idea">
       <h3><strong>Compartilhe suas ideias ou dúvidas com os autores!</strong></h3>
     </div>
@@ -154,21 +155,50 @@
     <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus <br> questionamentos ou sugestões para o autor!</p>
     <div class="create-container">
       <div class="line"></div>
+      <div class="create">
         <div class="create-topic">
-          <button class="btn-create-topic"><img src="assets/icon - criar.png" alt="create">criar tópico</button>
-        </div>
-        <div class="overlay-form" id="overlayform">
-          <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
-          <form>
-            <label for="assunto">Assunto</label>
-            <input type="text" name="assunto" id="assunto" placeholder="Defina um tópico sucinto para notificar os autores..."/>
-            <label for="contaudo">Conteúdo</label>
-            <textarea name="conteudo" id="conteudo" cols="50" rows="4"></textarea>
-            <button type="submit" class="btn-create-topic">Enviar</button>
-          </form>
+          <button id="btn-create-topic" class="btn-create-topic"><img src="assets/icon - criar.png" alt="create">criar tópico</button>
         </div>
       </div>
+      </div>
+    </div>
+    <div id="new-content">
+      <div class="new-1">
+        <div class="form-content" id="form">
+          <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+          <form id="topic-form">
+           <h4 id="subject">Assunto</h4>
+            <input class="assunto" type="text" placeholder="Defina um tópico sucinto para notificar os autores...">
+            <h4 id="content">Conteúdo</h4>
+            <textarea name="conteudo" id="conteudo"></textarea>
+            <div class="enviar">
+              <div class="gray"></div>
+              <button id="enviar" class="btn-create-topic">Enviar</button>
+            </div>
+          </form>
+          <div class="line-2"></div>
+        </div>
+      </div>
+    </div>
    </div>
-  
+   <footer>
+    <div class="line-footer"></div>
+   <div class="footer-container">
+    <div class="footer"> 
+      <h1>Galoá</h1>
+    <div class="feature">
+      <div class="line-feature-1"></div>
+      <p><strong>anais e proceedings</strong></p>
+      <div class="line-feature-2"></div>
+    </div>
+      <button>Saiba mais</button>
+    </div>
+    <div class="line-3"></div>
+    <div class="footer-text">
+      <p class="text-footer-1"><strong>Preservar a memória do evento e ampliar o acesso ao conhecimento científico</strong> gerado em eventos é a razão de ser dar <br> plataforma Galoá Proceedings.</p>
+      <p class="text-footer-2">Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda a comunidade científica, mantendo aceso o <br> debate científico fomentado pelos encontros e aumentando o impacto do evento.</p>
+    </div>
+   </div>
+   </footer>
 </body>
 </html>

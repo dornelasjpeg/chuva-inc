@@ -6,6 +6,10 @@
   font-family: 'roboto', sans-serif;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .container {
   display: flex;
 }
@@ -32,7 +36,7 @@
   display: flex;
   width: 178px;
   height: 68px;
-  flex-direction: column;
+ flex-direction: column;
   justify-content: center;
   text-align: center;
   font-size: 15px;
@@ -54,6 +58,7 @@
 .list-container ul li a {
   text-decoration: none;
   color: #725C5C;
+ 
 }
 
 .list-container a {
@@ -153,7 +158,9 @@
 .main-buttons {
   padding-top: 20px;
   margin-left: 185px;
+  display: flex;
 }
+
 
 .download {
   color: #fff;
@@ -169,12 +176,21 @@
   padding-right: 8px;
 }
 
+.main-star{
+  margin-left: 4px;
+}
+
 .star {
   background: #ed7839;
   border-radius: 4px;
   border: 1px solid #ed7839;
   width: 43px;
   height: 32px;
+  padding-top: 3px;
+}
+
+.main-doi{
+  margin-left: 4px;
 }
 
 .doi {
@@ -183,6 +199,7 @@
   border: 1px solid #ed7839;
   width: 43px;
   height: 32px;
+  padding-top: 4px;
 }
 
 .quote {
@@ -318,7 +335,7 @@ nav {
 }
 
 .resume-container {
-  width: 1058px;
+  width: 1132px;
   height: 189px;
   border-radius: 3px;
   border: 1px solid #ececec;
@@ -327,7 +344,7 @@ nav {
 }
 
 .resume-title {
-  width: 1058px;
+  width: 1132px;
   height: 45px;
   border-radius: 3px 3px 0px 0px;
   border: 1px solid #ececec;
@@ -362,7 +379,7 @@ nav {
 }
 
 .discussions-container {
-  width: 1058px;
+  width: 1132px;
   height: 621px;
   border-radius: 3px;
   border: 1px solid #ececec;
@@ -375,7 +392,7 @@ nav {
 }
 
 .discussions-title {
-  width: 1058px;
+  width: 1132px;
   height: 45px;
   border-radius: 3px 3px 0px 0px;
   border: 1px solid #ececec;
@@ -710,7 +727,7 @@ textarea {
 }
 
 .card-1 {
-  width: 1028px;
+  width: 1102px;
   height: 148px;
   border-radius: 4px;
   border: 1px solid #e7e7e7;
@@ -794,7 +811,7 @@ textarea {
 }
 
 #card-2{
-  width: 1028px;
+  width: 1102px;
   height: 148px;
   border-radius: 4px;
   border: 1px solid #e7e7e7;
